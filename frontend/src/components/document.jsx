@@ -10,7 +10,8 @@ import {
   CheckCircleRounded,
   InfoOutlined,
   CalendarMonthRounded,
-  StorageRounded
+  StorageRounded,
+  DescriptionOutlined
 } from '@mui/icons-material';
 
 import {
