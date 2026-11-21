@@ -1,0 +1,28 @@
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #f7f8fa;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  color: #292837;
+  background: #dedbff;
+}

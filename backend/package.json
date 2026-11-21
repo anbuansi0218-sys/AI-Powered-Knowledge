@@ -1,0 +1,24 @@
+{
+  "name": "knowledge-assistant-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/migrate.js && node --watch src/server.js",
+    "start": "node scripts/migrate.js && node src/server.js",
+    "start:docker": "node scripts/migrate.js && node src/server.js",
+    "db:migrate": "node scripts/migrate.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mssql": "^11.0.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
